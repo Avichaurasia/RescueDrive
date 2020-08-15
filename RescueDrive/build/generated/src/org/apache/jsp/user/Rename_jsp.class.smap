@@ -1,0 +1,18 @@
+SMAP
+Rename_jsp.java
+JSP
+*S JSP
+*F
++ 0 Rename.jsp
+user/Rename.jsp
+*L
+5,8:44
+13:52,3
+14,4:55
+18:59,3
+19,9:62
+28,2:71,3
+30,18:77
+48:95,3
+49,3:98
+*E

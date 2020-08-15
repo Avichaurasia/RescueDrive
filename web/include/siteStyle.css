@@ -1,0 +1,272 @@
+﻿body
+{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #f0f0f0;
+}
+.Line
+{
+    min-height: 1px;
+    max-height: 1px;
+    height: 1px;
+    background-color: #0e87b6;
+}
+#outerContainer
+{
+    width: 100%;
+    background-color: #ffffff;
+}
+#innerContainer
+{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 900px;
+}
+#logo
+{
+    width: 350px;
+    height: 65px;
+    background-image: url(../images/logo.png);
+}
+#userInfo
+{
+    width: 560px;
+    font-family: Arial, Times New Roman;
+    font-size: 11px;
+    color: white;
+    height: 35px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+#userInfo a
+{
+     width: 560px;
+    font-family: Arial, Times New Roman;
+    font-size: 11px;
+    color: white;
+    height: 35px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+#userImageOuterAlignment
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#userImageOuter
+{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 4px 4px 4px 4px;
+    background-color: white;
+    border: solid 1px #f0f0f0;
+}
+#userImageInner
+{
+    width: 40px;
+    height: 40px;
+}
+#userInnerDividerLine
+{
+    min-height: 1px;
+    max-height: 1px;
+    height: 1px;
+    background-image: url(../images/dot.png);
+    background-repeat: repeat-x;
+    background-position: center center;
+}
+#userInfoBottom
+{
+    height: 24px;
+    font-family: Arial, Times New Roman;
+    font-size: 10px;
+    color: white;
+    font-weight: normal;
+}
+#userInfoBottom a
+{
+   height: 24px;
+    font-family: Arial, Times New Roman;
+    font-size: 10px;
+    color: white;
+    font-weight: normal;
+}
+button
+{
+    min-width: 75px;
+    border: 1px solid #009a76;
+    background-color: #009a76;
+    color: white;
+    font-weight: bold;
+}
+.button
+{
+   min-width: 75px;
+   min-height: 30px;
+   font-size: 12px;
+    background-color: #795275;
+    border: 5px solid #795275;
+    color: white;
+}
+.button:hover
+{
+ 
+
+    border-bottom: 6px solid #009a76;
+   
+}
+.clsTitle
+{
+    font-family: Arial; font-size: 14px;
+}
+.clsTitleDetails
+{
+    font-family: Arial; font-size: 11px;
+}
+/*********/
+#mainMenuOuter
+{
+    height: 20px;
+    background-color: #0e87b6;
+}
+.clsMenuRightSearch
+{
+    border: 1px solid #ffffff;
+    background-color: #f0f0f0;
+}
+
+#SortBy
+{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.clsBlockStyle1
+{
+   height: 75px; width: 100%;
+                                border-bottom: 1px solid #d6e0fc;
+    }
+.clsBlockStyle2
+{
+    height: 75px; width: 100%;
+                                border-bottom: 1px solid #d6e0fc; background-color: #eff7fc;
+    }
+
+/*************/
+
+
+﻿table.tblStyle
+{
+    background-color: White;
+    border-color: rgb(204, 204, 204);
+    border-width: 1px;
+    
+    border-style: solid;
+    border-collapse: collapse;
+}
+table.tblStyle tr th
+{
+    color: White;
+    background-color: #795275;
+    font-weight: bold;
+}
+table.tblStyle tr.alt
+{
+    color: black;
+     background-color: #f0f0f0;
+}
+
+
+
+
+/*************/
+.innerMenulink
+{
+    font: 11px/100% Arial, sans-serif;
+    font-weight: bold;
+    color: #666666;
+    text-decoration: none;
+}
+.innerMenulink a:link
+{
+    font: 12px/100% Arial, sans-serif;
+    font-weight: bold;
+    color: #795275;
+    text-decoration: none;
+}
+.innerMenulink a:visited
+{
+    font: 12px/100% Arial, sans-serif;
+    font-weight: bold;
+    color: #0000ff;
+    text-decoration: none;
+}
+.innerMenulink a:hover
+{
+    font: 12px/100% Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+.innerMenulink a:active
+{
+    font: 12px/100% Arial, sans-serif;
+    font-weight: bold;
+    color: #0000ff;
+    text-decoration: none;
+}
+
+/*************/
+#footerContainer
+{
+    height: 80px; background-color: #f0f0f0;
+}
+#footerContainer table
+{
+    margin: 0 auto; padding: 0 auto;
+                    width: 900px; min-height: 100px; max-height: 100px; height: 100px; text-align: center;
+}
+.footer
+{
+    font: 11px/100% Arial, sans-serif;
+    font-weight: bold;
+    color: #795275;
+    text-decoration: none;
+}
+.footer a
+{
+    font: 12px/100% Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.footer a:visited
+{
+    font: 12px/100% Arial, sans-serif;
+    font-weight: bold;
+    color: #795275;
+    text-decoration: none;
+}
+.footer a:hover
+{
+    font: 12px/100% Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+.footer a:active
+{
+    font: 12px/100% Arial, sans-serif;
+    font-weight: bold;
+    color: #795275;
+    text-decoration: none;
+}
+.txtStyle{
+    
+    border : 1px solid;
+}

@@ -1,0 +1,45 @@
+﻿function getVirtualDirectory() {
+    var vDir = document.location.pathname.split('/');
+    return '/' + vDir[1] + '/';
+}
+
+function include_jQueryFilesToPage() {
+
+    var siteAddress = location.protocol+ '//' + document.location.hostname  + ":" + location.port + getVirtualDirectory();
+    
+    var jqCSSFilePath = siteAddress + 'include/menuStyle.css';
+    var jqCoreFilePath1 = siteAddress + 'include/jquery.js';
+    var jqCoreFilePath2 = siteAddress + 'include/easing.js'; 
+    var jqUIFilePath = siteAddress + 'include/lavalamp.js';
+    var head = document.getElementsByTagName('head')[0];
+
+    // jQuery CSS jnclude
+    var jqCSS = 'cssIDJQ'; // you could encode the css path itself to generate id.
+    if (!document.getElementById(jqCSS)) {
+        var link = document.createElement('link');
+        link.id = jqCSS;
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = jqCSSFilePath;
+        link.media = 'all';
+        head.appendChild(link);
+    }
+
+    // Core jQuery include
+    var jqc = "coreFileRefIDJQ";
+    if (!document.getElementById(jqc)) {
+        document.write('<scr' + 'ipt type="text/javascript" id="' + jqc + '" src="' + jqCoreFilePath1 + '"></scr' + 'ipt>');
+    }
+
+    // Core jQuery include
+    var jqce = "coreFileRefIDJQe";
+    if (!document.getElementById(jqce)) {
+        document.write('<scr' + 'ipt type="text/javascript" id="' + jqce + '" src="' + jqCoreFilePath2 + '"></scr' + 'ipt>');
+    }
+
+    // jQueryUI include
+    var jqUI = "uiFileRefIDJQ";
+    if (!document.getElementById(jqUI))
+        document.write('<scr' + 'ipt type="text/javascript" id="' + jqUI + '" src="' + jqUIFilePath + '"></scr' + 'ipt>');
+}
+include_jQueryFilesToPage();
